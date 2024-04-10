@@ -135,3 +135,13 @@ footer p{
   margin: 0px;
   text-align: left; 
 }
+
+#mapbody {
+  position: relative;
+  margin: 1.25em 4.375em; 
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  background-image: url('../images/mapbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
