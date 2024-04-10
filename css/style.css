@@ -22,6 +22,12 @@
   color: white;
 }
 
+#mapnav li a{
+  position: relative;
+  text-decoration: none; 
+  color: white;
+}
+
 /*  index  style */
 #indexbody {
   position: relative;
@@ -136,11 +142,14 @@ footer p{
   text-align: left; 
 }
 
+/* map */
+
 #mapbody {
   position: relative;
   margin: 1.25em 4.375em; 
   font-family: Arial, sans-serif; 
   text-align: center; 
+  background-size: cover;
   background-image: url('../images/mapbackground.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -149,5 +158,28 @@ footer p{
 #footermap {
   position: absolute;
   margin-top: 4.375em; 
-  color: white;
+  color: black;
+  background-color: white;
+}
+
+#wrapper {
+  width: 850px;
+  height: 600px;
+  background-color: red;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#canvas {
+
+}
+
+#sliderdiv img{
+  position: relative;
+  width: 18.75em;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.625em;
+  align-self: center;
 }
