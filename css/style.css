@@ -145,3 +145,9 @@ footer p{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+#footermap {
+  position: absolute;
+  margin-top: 4.375em; 
+  color: white;
+}
