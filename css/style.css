@@ -162,16 +162,25 @@ footer p{
   background-color: white;
 }
 
+#mapheader h1{
+  color: white
+}
+
 #wrapper {
+  position: relative;
   width: 850px;
   height: 600px;
-  background-color: red;
+  background-color: white;
   margin: 0 auto;
   overflow: hidden;
 }
 
 #canvas {
-
+  position: relative;
+  width: 700px;
+  height: 500px;
+  background-color: black;
+  margin: 40px auto;
 }
 
 #sliderdiv img{
