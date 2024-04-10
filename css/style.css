@@ -192,3 +192,43 @@ footer p{
   margin-bottom: 0.625em;
   align-self: center;
 }
+
+#sliderdiv2 img{
+  position: relative;
+  width: 18.75em;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.625em;
+  align-self: center;
+}
+
+#sliderdiv3 img{
+  position: relative;
+  width: 18.75em;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.625em;
+  align-self: center;
+}
+
+#sliderdiv4 img{
+  position: relative;
+  width: 18.75em;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.625em;
+  align-self: center;
+}
+
+#sliderdiv5 img{
+  position: relative;
+  width: 18.75em;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.625em;
+  align-self: center;
+}
