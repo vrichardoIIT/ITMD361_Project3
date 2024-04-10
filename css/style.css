@@ -1,0 +1,137 @@
+/* Naviagtion */
+#indexnav ul {
+  position: relative;
+  list-style-type: none; 
+  padding: 0; 
+  text-align: center;
+}
+
+#indexnav ul li {
+  display: inline; 
+  margin-right: 1.25em; 
+}
+
+#indexnav ul li a {
+  text-decoration: none; 
+}
+
+/* change colour */
+#animalnav li a{
+  position: relative;
+  text-decoration: none; 
+  color: white;
+}
+
+/*  index  style */
+#indexbody {
+  position: relative;
+  margin: 1.25em 4.375em; 
+  font-family: Arial, sans-serif; 
+}
+
+#indexheader {
+  margin-bottom: 1.25em; 
+  text-align: center;
+}
+
+#mainindex h2 {
+  border-bottom: 0.0625em solid black; 
+  margin: 0; 
+  padding-bottom: 0.3125em; 
+}
+
+/* goat style */
+#goatbody {
+  position: relative;
+  margin: 1.25em 4.375em;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-color: black;
+  background-image: url('../images/curtain.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+#achi {
+  text-align: justify;
+}
+
+#goatheader ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#goatheader ul li {
+  margin-bottom: 0.625em;
+}
+
+#image {
+  text-align: center;
+}
+
+#image img {
+  position: relative;
+  width: 18.75em;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.625em;
+  align-self: center;
+}
+
+/* fat animal style */
+#animalbody {
+  position: relative;
+  margin: 1.25em 4.375em; 
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  background-image: url('../images/forrest.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#animaltitle {
+  text-align: center;
+}
+
+.container {
+  width:60%;
+  margin: 0 auto;
+  background-color: white; 
+  border-radius: 1.5em; 
+  padding: 1.25em; 
+}
+
+#animalmain ul {
+  list-style-position: inside; 
+  text-align: center; 
+  padding-left: 0;
+}
+
+#animalmain ul li {
+  margin-bottom: 0.5em; 
+}
+
+/* footer */
+
+#footer1 {
+  position: absolute;
+  margin-top: 4.375em; 
+}
+
+#footerdiffer {
+  position: absolute;
+  margin-top: 4.375em; 
+  color: white;
+}
+
+footer p{
+  margin: 0px;
+  text-align: left; 
+}
