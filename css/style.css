@@ -178,8 +178,8 @@ footer p{
 
 #wrapper {
   position: relative;
-  width: 850px;
-  height: 600px;
+  width: 53.125em;
+  height: 37.5em;
   background-color: white;
   margin: 0 auto;
   overflow: hidden;
@@ -187,10 +187,10 @@ footer p{
 
 #canvas {
   position: relative;
-  width: 700px;
-  height: 500px;
+  width: 43.75em;
+  height: 31.25em;
   background-color: black;
-  margin: 40px auto;
+  margin: 2.5em auto;
 }
 
 #toggleTransit{
