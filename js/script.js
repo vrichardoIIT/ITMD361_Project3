@@ -94,4 +94,23 @@ function initMap() {
     fountain.open(map,attraction5)
   });
 
+  var transitLayer = new google.maps.TransitLayer();
+    transitLayer.setMap(map);
+
+    var transitButton = document.getElementById('toggleTransit');
+
+    var transitVisible = true;
+
+    transitButton.addEventListener('click', function () {
+        if (transitVisible) {
+            transitLayer.setMap(null);
+            transitVisible = false;
+            trainsitButton.textContent = 'Show Transit Layer';
+        } else {
+            transitLayer.setMap(map);
+            transitVisible = true;
+            transitButton.textContent = 'Hide Transit Layer';
+        }
+    });
+
 }
