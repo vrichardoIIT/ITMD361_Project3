@@ -1,5 +1,8 @@
-function init() {
-  alert('it works');
-}
+var map;
 
-google.maps.event.addDomListener(window, 'load', init);
+function initMap() {
+  map = new Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
