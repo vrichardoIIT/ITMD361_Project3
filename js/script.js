@@ -95,7 +95,7 @@ function initMap() {
   });
 
   var transitLayer = new google.maps.TransitLayer();
-    transitLayer.setMap(map);
+    transitLayer.setMap(null);
 
     var transitButton = document.getElementById('toggleTransit');
 
@@ -103,14 +103,20 @@ function initMap() {
 
     transitButton.addEventListener('click', function () {
         if (transitVisible) {
-            transitLayer.setMap(null);
-            transitVisible = false;
-            trainsitButton.textContent = 'Show Transit Layer';
-        } else {
             transitLayer.setMap(map);
+            transitVisible = false;
+        } else {
+            transitLayer.setMap(null);
             transitVisible = true;
-            transitButton.textContent = 'Hide Transit Layer';
         }
     });
-
 }
+
+$(document).ready(function(){
+  $('.sliderdiv').bxSlider({
+    mode: 'horizontal', 
+    captions: false, 
+    adaptiveHeight: true,
+    slideWidth: 300
+  });
+});
