@@ -1,83 +1,84 @@
 /* Naviagtion */
-@media screen and (min-width: 240px){
-  #indexnav ul {
-    position: relative;
-    list-style-type: none; 
-    padding: 0; 
-    text-align: center;
-  }
 
-  #indexnav ul li {
-    display: inline; 
-    margin-right: 1.25em; 
-  }
-
-  #indexnav ul li a {
-    text-decoration: none; 
-  }
+#indexnav ul {
+  position: relative;
+  list-style-type: none; 
+  padding: 0; 
+  text-align: center;
 }
-  /* change colour */
-  #animalnav li a{
-    position: relative;
-    text-decoration: none; 
-    color: white;
-  }
 
-  #mapnav li a{
-    position: relative;
-    text-decoration: none; 
-    color: white;
-  }
+#indexnav ul li {
+  display: inline; 
+  margin-right: 1.25em; 
+}
 
-  /*  index  style */
-  #indexbody {
-    position: relative;
-    margin: 1.25em 4.375em; 
-    font-family: Arial, sans-serif; 
-  }
+#indexnav ul li a {
+  text-decoration: none; 
+}
 
-  #indexheader {
-    margin-bottom: 1.25em; 
-    text-align: center;
-  }
+/* change colour */
+#animalnav li a{
+  position: relative;
+  text-decoration: none; 
+  color: white;
+}
 
-  #mainindex h2 {
-    border-bottom: 0.0625em solid black; 
-    margin: 0; 
-    padding-bottom: 0.3125em; 
-  }
+#mapnav li a{
+  position: relative;
+  text-decoration: none; 
+  color: white;
+}
 
-  /* goat style */
-  #goatbody {
-    position: relative;
-    margin: 1.25em 4.375em;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-size: cover;
-    background-color: black;
-    background-image: url('../images/curtain.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-  }
+/*  index  style */
+#indexbody {
+  position: relative;
+  margin: 1.25em 4.375em; 
+  font-family: Arial, sans-serif; 
+}
 
-  #achi {
-    text-align: justify;
-  }
+#indexheader {
+  margin-bottom: 1.25em; 
+  text-align: center;
+}
 
-  #goatheader ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+#mainindex h2 {
+  border-bottom: 0.0625em solid black; 
+  margin: 0; 
+  padding-bottom: 0.3125em; 
+}
 
-  #goatheader ul li {
-    margin-bottom: 0.625em;
-  }
+/* goat style */
+#goatbody {
+  position: relative;
+  margin: 1.25em 4.375em;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-color: black;
+  background-image: url('../images/curtain.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
 
+#achi {
+  text-align: justify;
+}
+
+#goatheader ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#goatheader ul li {
+  margin-bottom: 0.625em;
+}
+
+@media screen and (min-width: 240px){
   #image {
     text-align: center;
   }
@@ -91,40 +92,42 @@
     margin-bottom: 0.625em;
     align-self: center;
   }
+} 
 
-  /* fat animal style */
-  #animalbody {
-    position: relative;
-    margin: 1.25em 4.375em; 
-    font-family: Arial, sans-serif; 
-    text-align: center; 
-    background-image: url('../images/forrest.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+/* fat animal style */
+#animalbody {
+  position: relative;
+  margin: 1.25em 4.375em; 
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  background-image: url('../images/forrest.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  #animaltitle {
-    text-align: center;
-  }
+#animaltitle {
+  text-align: center;
+}
 
-  .container {
-    width:60%;
-    margin: 0 auto;
-    background-color: white; 
-    border-radius: 1.5em; 
-    padding: 1.25em; 
-  }
+.container {
+  width:60%;
+  margin: 0 auto;
+  background-color: white; 
+  border-radius: 1.5em; 
+  padding: 1.25em; 
+}
 
-  #animalmain ul {
-    list-style-position: inside; 
-    text-align: center; 
-    padding-left: 0;
-  }
+#animalmain ul {
+  list-style-position: inside; 
+  text-align: center; 
+  padding-left: 0;
+}
 
-  #animalmain ul li {
-    margin-bottom: 0.5em; 
-  }
+#animalmain ul li {
+  margin-bottom: 0.5em; 
+}
 
+@media screen and (min-width: 240px){
   .sliderdiv img{
     position: relative;
     width: 18.75em;
@@ -134,52 +137,52 @@
     margin-bottom: 0.625em;
     align-self: center;
   }
+}
+/* footer */
 
-  /* footer */
+#footer1 {
+  position: absolute;
+  margin-top: 4.375em; 
+}
 
-  #footer1 {
-    position: absolute;
-    margin-top: 70px; 
-  }
+#footerdiffer {
+  position: absolute;
+  margin-top: 4.375em; 
+  color: white;
+}
 
-  #footerdiffer {
-    position: absolute;
-    margin-top: 70px; 
-    color: white;
-  }
-
-  footer p{
-    margin: 0px;
-    text-align: left; 
-  }
+footer p{
+  margin: 0px;
+  text-align: left; 
+}
 
 /* map */
 
 
-  #mapbody {
-    position: relative;
-    margin: 1.25em 4.375em; 
-    font-family: Arial, sans-serif; 
-    text-align: center; 
-    background-size: cover;
-    background-image: url('../images/mapbackground.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+#mapbody {
+  position: relative;
+  margin: 1.25em 4.375em; 
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  background-size: cover;
+  background-image: url('../images/mapbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  #footermap {
-    position: absolute;
-    margin-top: 4.375em; 
-    color: black;
-    background-color: white;
-  }
+#footermap {
+  position: absolute;
+  margin-top: 4.375em; 
+  color: black;
+  background-color: white;
+}
 
-  #mapheader h1{
-    color: white
-  }
+#mapheader h1{
+  color: white
+}
 
+@media screen and (min-width: 240px){
   #wrapper {
-    position: relative;
     width: 53.125em;
     height: 37.5em;
     background-color: white;
@@ -188,16 +191,16 @@
   }
 
   #canvas {
-    position: relative;
     width: 43.75em;
     height: 31.25em;
     background-color: black;
     margin: 2.5em auto;
   }
+}
 
-  #toggleTransit{
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } 
+#toggleTransit{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
