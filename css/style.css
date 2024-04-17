@@ -15,7 +15,7 @@
   #indexnav ul li a {
     text-decoration: none; 
   }
-
+}
   /* change colour */
   #animalnav li a{
     position: relative;
@@ -152,10 +152,10 @@
     margin: 0px;
     text-align: left; 
   }
-}
+
 /* map */
 
-@media screen and (min-width: 840px){
+
   #mapbody {
     position: relative;
     margin: 1.25em 4.375em; 
@@ -201,4 +201,3 @@
     left: 50%;
     transform: translate(-50%, -50%);
   } 
-}
